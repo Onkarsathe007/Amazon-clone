@@ -1,0 +1,297 @@
+/*     */
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /*Overall things included in content area*/
+}
+body{
+    background-color: #f2f2f2;
+}
+.navbar{
+    height: 60px;
+    background-color: #27374D;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    background-image: url("Picsart_23-06-09_20-15-54-634.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.nav_logo{
+ height: 50px;
+ width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.location{
+    width: 10px;
+    height: 10px;
+}
+.nav-search{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+border: 2px solid #febd68;
+}
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+}
+.search-select:hover{
+    border: 2px solid #febd68;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ff7d2c;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color: #0f1111;
+}
+.Login{
+    display: flex;
+    height: 22px;
+    width: 130px;
+    background-color: #ff7d2c;
+    margin-left: 130px;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    
+}
+a{
+    text-decoration: none;
+    color: #0f1111;
+}
+.Login:hover{
+    border: 2px solid white;
+}
+.Reg-class{
+    color: #FFE6C7;
+}
+.cart{
+    margin-left:67px;
+    font-size : 0.9rem;
+    font-weight: 700;
+}
+
+/* Panel */
+
+.Panel{
+    height: 40px;
+    background-color: #FFA559;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options{
+    
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: 700;
+   
+}
+.panel-options p{
+    margin-left: 50px;
+    display: inline;
+    color: #0f1111;
+}
+.deals{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+.Hero-section{
+    height: 400px;
+    background-size: cover;
+    background-image: url("thebookspot.png");
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    
+}
+.Hero-message{
+    background-color: #f3f3f3;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 1rem;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.Hero-message a{
+    color: #007185;
+}
+
+/* Shop section */
+
+.Shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    /* border: 2px solid black; */
+    box-shadow:0 0 5px 2px rgba(0,0,0,0.3),0 4px 8px rgba(0,0,0,0.2);
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px,0px,15px;
+    margin-top: 15px;
+    padding-top: 18px;
+    /* border-radius: 10px; */
+}
+.Firelogo{
+    color: #c24a00;
+}
+.Box-img{
+    height: 300px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.boxcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boxcontent p{
+    color: #007185;
+}
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-size: 16px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 a{
+    color: white;
+}
+ul{
+    margin: 40px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+.footpanel3{
+
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("Picsart_23-06-09_20-15-54-634.png");
+    width: 100px;
+}
+.copyright{
+    background-color: #0f1111;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.home-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #0f1111;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .about{
+    height: 100px;
+    background-color: #222f3d;
+    color: #f2f2f2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .about p{
+    font-weight: 500;
+  }
+  .about a{
+    color: #f2f2f2;
+  }
+  .socialmedia{
+    height: 100px;
+    background-color: #222f3d;
+    color: #f2f2f2;
+  }
+  .socialmedia p{
+    font-weight: 200;
+    background-color: #222f3d;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .Detail{
+    font-weight: 600;
+   
+  }
+  .Email-logo{
+    margin-left: 450px;
+  }
